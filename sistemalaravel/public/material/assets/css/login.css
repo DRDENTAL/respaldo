@@ -1,0 +1,116 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.button {
+	width: 240px;
+	height: 45px;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.facebook {
+  margin-bottom: 25px;
+	background-color: #A0BBD6;
+	-webkit-transition: background-color .2s ease;
+	   -moz-transition: background-color .2s ease;
+	    -ms-transition: background-color .2s ease;
+	     -o-transition: background-color .2s ease;
+	        transition: background-color .2s ease;
+}
+
+.facebook:hover {
+	background-color: #88a5c2;
+}
+
+.submit {
+	margin-top: 20px;
+	background-color: #a6d7a0;
+	-webkit-transition: background-color .2s ease;
+	   -moz-transition: background-color .2s ease;
+	    -ms-transition: background-color .2s ease;
+	     -o-transition: background-color .2s ease;
+	        transition: background-color .2s ease;
+}
+
+.submit:hover {
+	background-color: #93c08e;
+}
+
+p {
+	text-align: center;
+	color: #747474;
+	padding: 5px 0;
+	font-weight: 300;
+}
+
+.form {
+  border: thin solid #ededed;
+	position: relative;
+	margin: 30px auto;
+	width: 290px;
+	height: auto;
+	background-color: #ffffff;
+	padding: 30px 0;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+input[type=text] {
+	background: url(http://imageshack.com/a/img812/1096/y67f.png) no-repeat 15px 13px;
+}
+
+input[type=password] {
+	position: relative;
+	top: -5px;
+	background: url(http://imageshack.com/a/img812/6980/lcnq.png) no-repeat 15px 13px;
+}
+
+input[type=text], input[type=password] {
+	width: 195px;
+	height: 40px;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+	margin: 0 auto;
+	display: block;
+	border: none;
+	background-color: #EBEBEB;
+	padding: 2px 0 2px 45px;
+	-webkit-background-size: 18px;
+	     -o-background-size: 18px;
+	        background-size: 18px;
+	font-size: 15px;
+	font-weight: 300;
+	color: #777;
+	-webkit-transition: background-color .2s ease;
+	   -moz-transition: background-color .2s ease;
+	    -ms-transition: background-color .2s ease;
+	     -o-transition: background-color .2s ease;
+	        transition: background-color .2s ease;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	outline: none;
+	background-color: #f3f3f3;
+}
+
+img	{
+	width: 24px;
+	height: auto;
+	display: block;
+    margin: 0 auto;
+    padding: 11px 0;
+}
+
+
