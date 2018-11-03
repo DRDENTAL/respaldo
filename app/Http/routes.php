@@ -66,6 +66,7 @@ Route::post('sendmail', 'emailController@enviar');
 
 
 
+
 //rutas accessibles slo si el usuario no se ha logueado
 Route::group(['middleware' => 'guest'], function () {
 

@@ -69,11 +69,11 @@ class emailController extends Controller
             
         if($r){   
                 
-                return view("mensajes.msj_correcto")->with("msj","Correo Enviado correctamente");   
+                return view("webpage.contacto");   
         }
         else
         {            
-             return view("mensajes.msj_rechazado")->with("msj","hubo un error vuelva a intentarlo");  
+             return view("webpage.index");  
         }
 
        
@@ -132,6 +132,7 @@ class emailController extends Controller
     public function index()
     {
         //
+        return view('webpage.contacto');
     }
 
     /**

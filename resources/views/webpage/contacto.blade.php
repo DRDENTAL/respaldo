@@ -194,7 +194,7 @@ OTRO CONTACTOOOOO
                       </div>
 -->
           <p class="center-align">
-            <button class="waves-effect waves-light btn" name="submit" id="submit" type="submit" style="background-color: #2DDB2D;"><i class="material-icons right" >send</i>enviar</button>
+            <button onclick="M.toast()" class="waves-effect waves-light btn" name="submit" id="submit" type="submit" style="background-color: #2DDB2D;"><i class="material-icons right" >send</i>enviar</button>
           </p>
 
         </form>
@@ -315,6 +315,9 @@ OTRO CONTACTOOOOO
       $('.carousel').carousel();
       $('.slider').slider();
   });
+      
+       var toastHTML = '<span>me toste</span><button class="btn-flat toast-action">Salir</button>';
+       M.toast({html: toastHTML});
       
   </script>
 
