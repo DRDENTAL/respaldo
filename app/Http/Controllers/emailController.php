@@ -8,6 +8,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Mail;
 use Storage;
+use Input;
 
 
 class emailController extends Controller
@@ -38,7 +39,8 @@ class emailController extends Controller
             
             Mail::send('correo.plantilla_correo', $data, function ($message) use ($email) {
                 $message->subject('Contacto');
-                $message->to('javierelguetainacapino@gmail.com');
+                $message->to('contacto.autoenergy@gmail.com');
+                
                     
             });
         
@@ -55,8 +57,10 @@ class emailController extends Controller
         $email=$request->input("email");
         $nombre=$request->input("nombre");
         $mensaje=$request->input("mensaje");
+        $apellido=$request->input("apellido");
+        $telefono=$request->input("telefono");
 
-       
+               
         $data = array('mensaje' => $mensaje);
         $r= Mail::send('correo.plantilla_correo', $data, function ($message) use ($email,$nombre) {
             
@@ -69,7 +73,10 @@ class emailController extends Controller
             
         if($r){   
                 
-                return view("webpage.contacto");   
+                
+              
+
+            return view('webpage.contacto'); 
         }
         else
         {            

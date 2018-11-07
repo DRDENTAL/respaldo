@@ -28,7 +28,9 @@ Route::get('/ofertas.php', function () {
 Route::get('/nosotros.php', function () {
       return view('webpage.nosotros');
   });
-
+Route::get('contacto.php?id=1', function(){
+      return view('webpage.contacto');
+});
 
 
 Route::post('sendmail', 'emailController@enviar');
