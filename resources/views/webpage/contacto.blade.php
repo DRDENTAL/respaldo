@@ -151,7 +151,7 @@ OTRO CONTACTOOOOO
           <div class="col s6 m6">
           <div class="input-field">
             <i class="material-icons prefix" style="color: #25D366;">perm_identity</i>
-            <label for="nombre" style="color: #25D366;">Nombre y Apellido</label>
+            <label for="nombre" style="color: #25D366;">Nombres</label>
             <input type="text" name="nombre" required>
           </div>
           </div>
@@ -159,7 +159,7 @@ OTRO CONTACTOOOOO
           <div class="col s6 m6">
           <div class="input-field">
             <i class="material-icons prefix" style="color: #25D366;">person_pin</i>
-            <label for="apellido" style="color: #25D366;">Apellido</label>
+            <label for="apellido" style="color: #25D366;">Apellidos</label>
             <input type="text" name="apellido"  required>
           </div>
           </div>

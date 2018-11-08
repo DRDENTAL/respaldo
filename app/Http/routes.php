@@ -10,6 +10,12 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('http://www.autoenergy.cl', function () {
+      return view('webpage.index');
+  });
+Route::get('www.autoenergy.cl', function () {
+      return view('webpage.index');
+  });
 Route::get('/', function () {
       return view('webpage.index');
   });
@@ -28,6 +34,9 @@ Route::get('/ofertas.php', function () {
 Route::get('/nosotros.php', function () {
       return view('webpage.nosotros');
   });
+
+
+
 Route::get('contacto.php?id=1', function(){
       return view('webpage.contacto');
 });
