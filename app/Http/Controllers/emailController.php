@@ -18,33 +18,7 @@ class emailController extends Controller
         return view("webpage.contacto");
     }
 
-    public function enviaremail()
-    {
-        $data = array();
-        $user = "";
-        $nombre = $_POST['nombre'];
-        
-        $email = $_POST['email'];
-        $telefono = $_POST['telefono'];
-        $mensaje = $_POST['mensaje'];
-        
-
-        // Datos del email
-        $para = $email;
-        $titulo = 'Autoenergy Contacto';
-        $header = 'From: ' . $email;
-        $msjCorreo = "Nombre: $nombre\n Telefono: $telefono\n E-Mail: $email\n Mensaje:\n $mensaje";
-
-        
-            
-            Mail::send('correo.plantilla_correo', $data, function ($message) use ($email) {
-                $message->subject('Contacto');
-                $message->to('contacto.autoenergy@gmail.com');
-                
-                    
-            });
-        
-    }
+    
 
 
 
@@ -60,12 +34,13 @@ class emailController extends Controller
         $apellido=$request->input("apellido");
         $telefono=$request->input("telefono");
 
+
                
         $data = array('mensaje' => $mensaje);
         $r= Mail::send('correo.plantilla_correo', $data, function ($message) use ($email,$nombre) {
             
             
-            $message->from('javierelguetainacapino@gmail.com', 'Contacto');
+            $message->from('contacto.autoenergy@gmail.com', 'Contacto');
             $message->to($email)->subject($nombre);
            
 
@@ -77,6 +52,7 @@ class emailController extends Controller
               
 
             return view('webpage.contacto'); 
+            
         }
         else
         {            

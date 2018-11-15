@@ -91,6 +91,12 @@
 <div class="slider">
   <ul class="slides">
     <li>
+      <img src="img/cambios/ofer.jpg" style="position: relative;">
+      <div class="caption center-align">
+        
+      </div>
+    </li>
+    <li>
       <img src="img/index.jpg">
       <div class="caption center-align">
         <h3>AUTOENERGY SPA</h3>
@@ -133,51 +139,55 @@
 <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s4 m4">
-          <div class="icon-block">
-            <h2 class="center" style="color: #2DDB2D;"><i class="material-icons">settings_input_antenna</i></h2>
-            <h5 class="center"  style="color: #2DDB2D;" ><a href="servicios.php"  style="color: #2DDB2D;">Área ERNC</a></h5>
+        <div class="table">
+            <div class="col s12 m8 l4">
+              
+                <h2 class="center" style="color: #2DDB2D;"><i class="material-icons">settings_input_antenna</i></h2>
+                <h5 class="center"  style="color: #2DDB2D;" ><a href="servicios.php"  style="color: #2DDB2D;">Área ERNC</a></h5>
 
-            <p class="light"  style="color: #2DDB2D;" >Realizamos instalaciones de pequeñas y medianas plantas de generación fotovoltaicas.</p>
-          </div>
-        </div>
-
-        <div class="col s4 m4">
-          <div class="icon-block">
-            <h2 class="center" style="color: #2DDB2D;"><i class="material-icons">location_city</i></h2>
-            <h5 class="center"  style="color: #2DDB2D;" ><a href="servicios.php"  style="color: #2DDB2D;">Área Industrial</a></h5>
-            <p class="light"  style="color: #2DDB2D;" >Realizamos automatización y control de procesos industriales e integraciones de sistemas de $
-          </div>
-        </div>
-
-        <div class="col s4 m4">
-          <div class="icon-block">
-            <h2 class="center" style="color: #2DDB2D;"><i class="material-icons">touch_app</i></h2>
-            <h5 class="center"  style="color: #2DDB2D;" ><a href="servicios.php"  style="color: #2DDB2D;"> Área Agrícola</a></h5>
-            <p class="light"  style="color: #2DDB2D;" >Realizamos mejoras de plantas agrícolas de procesos de frutos secos, vinos, etc.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-
-        <div class="col s4 m4">
-           <div class="icon-block">
-             <img src="img/foto1.jpg" alt="" style="width: 300px; height: 200px;">
-           </div>
-        </div>
-
-        <div class="col s4 m4">
-           <div class="icon-block">
-            <img src="img/auto/foto2.jpg" alt="" style="width: 300px; height: 200px;">
-          </div>
-        </div>
-
-        
-        <div class="col s4 m4">
-           <div class="icon-block">
-              <img src="img/zz1.jpg" alt="" style="width: 300px; height: 200px; position: center;">
+                <p class="light"  style="color: #2DDB2D;" >Realizamos instalaciones de pequeñas y medianas plantas de generación fotovoltaicas.</p>
+              
             </div>
+
+            <div class="col s12 m8 l4">
+              
+                <h2 class="center" style="color: #2DDB2D;"><i class="material-icons">location_city</i></h2>
+                <h5 class="center"  style="color: #2DDB2D;" ><a href="servicios.php"  style="color: #2DDB2D;">Área Industrial</a></h5>
+                <p class="light"  style="color: #2DDB2D;" >Realizamos automatización y control de procesos industriales e integraciones de sistemas de plantas industriales con técnicos especializados de nivel superior.</p>
+              
+            </div>
+
+            <div class="col s12 m8 l4">
+              
+                <h2 class="center" style="color: #2DDB2D;"><i class="material-icons">touch_app</i></h2>
+                <h5 class="center"  style="color: #2DDB2D;" ><a href="servicios.php"  style="color: #2DDB2D;"> Área Agrícola</a></h5>
+                <p class="light"  style="color: #2DDB2D;" >Realizamos mejoras de plantas agrícolas de procesos de frutos secos, vinos, etc.</p>
+              
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="table">
+
+              <div class="col s12 m8 l4">
+                 
+                   <img src="img/foto1.jpg" alt="" style="width: 300px; height: 200px;">
+               
+              </div>
+
+              <div class="col s12 m8 l4">
+                 
+                  <img src="img/auto/foto2.jpg" alt="" style="width: 300px; height: 200px;">
+               
+              </div>
+
+              
+              <div class="col s12 m8 l4">
+                 
+                    <img src="img/zz1.jpg" alt="" style="width: 300px; height: 200px; position: center;">
+                  
+              </div>
+           </div>
       </div>
 
 </div>
@@ -193,6 +203,8 @@
             <b>Todos los derechos reservados a </b><a class="grey-text text-darken-4" href="index.php"><br><b>AutoEnergy Ingeniería y Servicios SPA</b></a> 
           </div>
           <div class="col s7 m7 right-align"><b>Fono Contacto +569 - 48740003</b></div>
+          <br>
+          <a href="contacto.php" class="right" style="color:#FFFFFF;"><b>CONTACTO.AUTOENERGY@GMAIL.COM</b></a>
         </div>
       </div>
     </div>
