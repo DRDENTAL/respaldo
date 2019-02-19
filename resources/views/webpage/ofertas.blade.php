@@ -23,29 +23,21 @@
   
   <nav class="navigation" style="background-color: #2DDB2D;" role="navigation">
     <div class="nav-wrapper container">
-      
-         <img src="img/icologo.png" alt="" class="responsive-img" style="width: 120px; height: 70px;">
-       
 
+      <img src="img/icologo.png" alt="" class="responsive-img" style="width: 120px; height: 60px;">
 
-    
         <ul id='dropdown1' class='dropdown-content' style="background-color: #2DDB2D;">
-          
           <li><a href="servicios.php" style="color: #ffffff">ERNC</a></li>
           <li><a href="servicios.php" style="color: #ffffff">INDUSTRIAL</a></li>
-          <li><a href="servicios.php" style="color: #ffffff">AGRÍCOLA</a></li>
-          
+          <li><a href="servicios.php" style="color: #ffffff">AUTOMATIZACIÓN</a></li>
         </ul>
-
 
         <ul class="dropdown-content" id="comp-menu3">
-           <li><a href="servicios.php">ERNC</a></li>
-            <li><a href="servicios.php">INDUSTRIAL</a></li>
-            <li><a href="servicios.php">AGRÍCOLA</a></li>
+          <li><a href="servicios.php">ERNC</a></li>
+          <li><a href="servicios.php">INDUSTRIAL</a></li>
+          <li><a href="servicios.php">AUTOMATIZACIÓN</a></li>
         </ul>
-       
-       
-        
+
         <ul class="right hide-on-med-and-down">
           <li><a href="/">Inicio</a></li>
           <li><a href="nosotros.php">Nosotros</a></li>
@@ -56,14 +48,14 @@
         </ul>
 
         <ul id="nav-mobile" class="side-nav" style="background-color: #2DDB2D;">
-          <li><a href="/.php">Inicio</a></li>
-          
-         <li><a href="ingenieria.php">Ingeniería</a></li>        
+          <li><a href="/">Inicio</a></li>
           <li><a href="nosotros.php">Nosotros</a></li>
           <li><a href="contacto.php">Contacto</a></li>
+          <li><a href="ingenieria.php">Ingeniería</a></li>
           <li><a href="#" data-activates="comp-menu3" class="dropdown-button">Servicios</a></li>
+          <li><a href="ofertas.php">Nuevas Ofertas</a></li>
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -247,22 +239,17 @@
       <div class="container">
         <div class="row">
             
-
-            <div class="col s5 m5 left-align">
-                <b>Todos los derechos reservados a </b>
-                <a class="grey-text text-darken-4" href="/">
-                  <br>
-                  <b>AutoEnergy Ingeniería y Servicios SPA</b>
-                </a> 
-            </div>
-            <div class="col s7 m7 right-align">
-                <b>Fono Contacto +569 - 48740003</b>
-            </div>
-      
+          <div class="col s5 m5 left-align">
+            <b>Todos los derechos reservados a </b><a class="grey-text text-darken-4" href="/"><br><b>AutoEnergy Ingeniería y Servicios SPA</b></a> 
+          </div>
+          <div class="col s7 m7 right-align"><b>Fono Contacto +569 - 48740003</b></div>
+<br>
+          <a href="contacto.php" class="right" style="color:#FFFFFF;"><b>CONTACTO.AUTOENERGY@GMAIL.COM</b></a>
         </div>
       </div>
     </div>
-</footer>
+  </footer>
+
 
 
   <!--  Scripts-->

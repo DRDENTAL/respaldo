@@ -20,117 +20,42 @@
 
   <nav class="navigation" style="background-color: #2DDB2D;" role="navigation">
     <div class="nav-wrapper container">
-      
-        <img src="img/icologo.png" alt="" class="responsive-img" style="width: 120px; height: 60px;">
-     
 
+      <img src="img/icologo.png" alt="" class="responsive-img" style="width: 120px; height: 60px;">
 
-  <!-- Dropdown Structure -->
-  <ul id='dropdown1' class='dropdown-content' style="background-color: #2DDB2D;">
-    
-    <li><a href="servicios.php" style="color: #ffffff">ERNC</a></li>
-    <li><a href="servicios.php" style="color: #ffffff">INDUSTRIAL</a></li>
-    <li><a href="servicios.php" style="color: #ffffff">AGRÍCOLA</a></li>
-    <!--
-    <li class="divider"></li>
-    <li><a href="servicios.php" style="color: #ffffff">OTROS</a></li>-->
-  </ul>
+        <ul id='dropdown1' class='dropdown-content' style="background-color: #2DDB2D;">
+          <li><a href="servicios.php" style="color: #ffffff">ERNC</a></li>
+          <li><a href="servicios.php" style="color: #ffffff">INDUSTRIAL</a></li>
+          <li><a href="servicios.php" style="color: #ffffff">AUTOMATIZACIÓN</a></li>
+        </ul>
 
-
-      <ul class="dropdown-content" id="comp-menu3">
-        
-        <li><a href="servicios.php">ERNC</a></li>
+        <ul class="dropdown-content" id="comp-menu3">
+          <li><a href="servicios.php">ERNC</a></li>
           <li><a href="servicios.php">INDUSTRIAL</a></li>
-          <li><a href="servicios.php">AGRÍCOLA</a></li>
-      </ul>
-     
-      <!--<a id="logo-container" href="#" class="brand-logo">Logo</a>-->
-      
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">Inicio</a></li>
-        <!--<li><a href="#" data-activates="comp-menu3" class="dropdown-button btn">Servicios</a></li>-->
-        <li><a href="nosotros.php">Nosotros</a></li>
-        <li><a href="contacto.php">Contacto</a></li>
-        <li><a href="ingenieria.php">Ingeniería</a></li>
-        <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Nuestros Servicios</a></li>
-        <li><a href="ofertas.php">Nuevas Ofertas</a></li>
-      </ul>
+          <li><a href="servicios.php">AUTOMATIZACIÓN</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav" style="background-color: #2DDB2D;">
-        <li><a href="index.php">Inicio</a></li>
-        
-        <li><a href="ingenieria.php">Ingeniería</a></li>        
-        <li><a href="nosotros.php">Nosotros</a></li>
-        <li><a href="contacto.php">Contacto</a></li>
-        <li><a href="#" data-activates="comp-menu3" class="dropdown-button">Servicios</a></li>
-      </ul>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="nosotros.php">Nosotros</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
+          <li><a href="ingenieria.php">Ingeniería</a></li>
+          <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Nuestros Servicios</a></li>
+          <li><a href="ofertas.php">Nuevas Ofertas</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav" style="background-color: #2DDB2D;">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="nosotros.php">Nosotros</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
+          <li><a href="ingenieria.php">Ingeniería</a></li>
+          <li><a href="#" data-activates="comp-menu3" class="dropdown-button">Servicios</a></li>
+          <li><a href="ofertas.php">Nuevas Ofertas</a></li>
+        </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  
-<!--  
 
-<div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="img/index.jpg"> 
-        <div class="caption center-align">
-          <h3>AUTOENERGY</h3>
-          <h5 class="light grey-text text-lighten-3">Tecnología a tu alcance.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/unnamed.jpg"> 
-        <div class="caption left-align">
-          <h3>AUTOENERGY</h3>
-          <h5 class="light grey-text text-lighten-3">Tecnología a tu alcance.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/auto/foto2.jpg"> 
-        <div class="caption right-align">
-          <h3>AUTOENERGY</h3>
-          <h5 class="light grey-text text-lighten-3">Tecnología a tu alcance.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/auto/foto1.jpg"> 
-        <div class="caption center-align">
-          <h3>AUTOENERGY</h3>
-          <h5 class="light grey-text text-lighten-3">Tecnología a tu alcance.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-
-
-  <div class="carousel carousel-slider center">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
-    <div class="carousel-item green white-text" href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
-
-
-
-      <p class="white-text">This is your fourth panel</p>
-    </div>
-  </div>
-        
--->
 <div class="row">
    <div class="col s12 m12 l10">
                         <div id="EQUIPO" class="section scrollspy">
@@ -210,22 +135,22 @@
             </ul>
           </div>
   </div>
-  <footer class="page-footer" style="background-color: #2DDB2D;">
+ <footer class="page-footer" style="background-color: #2DDB2D;">
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
             
-
-            <div class="col s5 m5 left-align">
-      <b>Todos los derechos reservados a </b><a class="grey-text text-darken-4" href="index.php"><br><b>AutoEnergy Ingeniería y Servicios SPA</b></a> </div>
-            <div class="col s7 m7 right-align"><b>Fono Contacto +569 - 48740003</b>
-
-      
-      </div>
-      
+          <div class="col s5 m5 left-align">
+            <b>Todos los derechos reservados a </b><a class="grey-text text-darken-4" href="/"><br><b>AutoEnergy Ingeniería y Servicios SPA</b></a> 
+          </div>
+          <div class="col s7 m7 right-align"><b>Fono Contacto +569 - 48740003</b></div>
+<br>
+          <a href="contacto.php" class="right" style="color:#FFFFFF;"><b>CONTACTO.AUTOENERGY@GMAIL.COM</b></a>
+        </div>
       </div>
     </div>
   </footer>
+
 
 
   <!--  Scripts-->
@@ -247,6 +172,7 @@
     indicators: true
   });
       $(document).ready(function(){
+        $('.dropdown-button').dropdown();
       $('.carousel').carousel();
       $('.slider').slider();
   });
